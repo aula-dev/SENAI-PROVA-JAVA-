@@ -16,7 +16,7 @@ public class Estado {
     private Integer id;
     private String nome;
     
-    private Cidade Cidade;
+    private Cidade Cidade; // Segundo o diagrama de classes, aqui deveria ser uma lista de cidades.
 
     public Estado(Integer id, String nome, Cidade Cidade) {
         this.id = id;
