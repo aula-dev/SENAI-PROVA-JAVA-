@@ -17,7 +17,10 @@ public class Cliente {
     private Integer idade;
     
     private Sexo Sexo;
-    private String telefone;
+    
+    // Faltou inserir atributo para relação entre a classe Cliente e Endereco.
+    
+    private String telefone; //Segundo o diagrama de classes, aqui podem ser inseridos um ou vários telefones.
 
     public Cliente(Integer id, String nome, Integer idade, Sexo Sexo, String telefone) {
         this.id = id;
